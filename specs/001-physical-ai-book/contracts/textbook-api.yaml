@@ -1,0 +1,194 @@
+# Textbook Generation API Contract
+
+## Overview
+This API contract defines the endpoints for the Physical AI & Humanoid Robotics textbook generation system. The API allows for programmatic creation, validation, and management of textbook content.
+
+## Base Path
+`/api/textbook`
+
+## Endpoints
+
+### Generate Textbook
+- **POST** `/generate/textbook`
+- **Description**: Generate complete textbook from structure
+- **Request**:
+  ```json
+  {
+    "structure": {
+      "title": "Physical AI & Humanoid Robotics",
+      "modules": [
+        {
+          "id": "introduction",
+          "name": "Introduction",
+          "weeks": [1],
+          "topics": ["What is Physical AI", "Embodied Intelligence"]
+        }
+      ],
+      "weeks": 13,
+      "assessments": [
+        {
+          "id": "ros-project",
+          "name": "ROS 2 Project",
+          "type": "hands-on"
+        }
+      ]
+    },
+    "options": {
+      "format": "markdown",
+      "includeCodeExamples": true,
+      "validateContent": true
+    }
+  }
+  ```
+- **Response** (200):
+  ```json
+  {
+    "status": "success",
+    "outputPath": "/output/textbook/generated-textbook.zip",
+    "generatedModules": 10,
+    "generatedChapters": 20,
+    "validationResults": {
+      "passed": true,
+      "issues": []
+    }
+  }
+  ```
+- **Errors**: 400 (invalid structure), 500 (generation failed)
+
+### Generate Module
+- **POST** `/generate/module`
+- **Description**: Generate specific module content
+- **Request**:
+  ```json
+  {
+    "moduleId": "ros2",
+    "moduleName": "ROS 2",
+    "topics": ["Nodes", "Topics", "Services"],
+    "options": {
+      "format": "markdown",
+      "includeExamples": true
+    }
+  }
+  ```
+- **Response** (200):
+  ```json
+  {
+    "status": "success",
+    "moduleId": "ros2",
+    "outputPath": "/output/textbook/ros2/",
+    "generatedFiles": 3
+  }
+  ```
+
+### Validate Textbook Structure
+- **POST** `/validate/structure`
+- **Description**: Validate textbook structure against requirements
+- **Request**:
+  ```json
+  {
+    "structure": {
+      "modules": [...],
+      "weeks": 13,
+      "assessments": [...]
+    }
+  }
+  ```
+- **Response** (200):
+  ```json
+  {
+    "valid": true,
+    "issues": [],
+    "suggestions": []
+  }
+  ```
+- **Response** (400):
+  ```json
+  {
+    "valid": false,
+    "issues": [
+      {
+        "type": "missing_module",
+        "message": "Module 'ROS 2' is required but missing",
+        "severity": "error"
+      }
+    ]
+  }
+  ```
+
+### Get Available Modules
+- **GET** `/modules`
+- **Description**: Get list of available textbook modules
+- **Response** (200):
+  ```json
+  {
+    "modules": [
+      {
+        "id": "introduction",
+        "name": "Introduction",
+        "required": true,
+        "description": "Foundations of Physical AI"
+      },
+      {
+        "id": "ros2",
+        "name": "ROS 2",
+        "required": true,
+        "description": "Robot Operating System 2"
+      }
+      // ... other modules
+    ]
+  }
+  ```
+
+### Generate Assessment
+- **POST** `/generate/assessment`
+- **Description**: Generate assessment project content
+- **Request**:
+  ```json
+  {
+    "assessmentId": "ros-project",
+    "name": "ROS 2 Project",
+    "requirements": ["ROS 2 knowledge", "Basic programming"],
+    "options": {
+      "format": "markdown",
+      "includeRubric": true
+    }
+  }
+  ```
+- **Response** (200):
+  ```json
+  {
+    "status": "success",
+    "assessmentId": "ros-project",
+    "outputPath": "/output/assessments/ros-project.md"
+  }
+  ```
+
+## Common Error Responses
+
+### 400 Bad Request
+```json
+{
+  "error": "validation_error",
+  "message": "Request validation failed",
+  "details": {
+    "field": "modules",
+    "issue": "Missing required module"
+  }
+}
+```
+
+### 500 Internal Server Error
+```json
+{
+  "error": "generation_failed",
+  "message": "Textbook generation failed",
+  "details": "Error during content generation process"
+}
+```
+
+## Authentication
+All endpoints require API key authentication in the `X-API-Key` header.
+
+## Rate Limiting
+- 100 requests per hour per API key
+- Responses include `X-RateLimit-Remaining` header

@@ -1,0 +1,248 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/physical-ai-humanoid-robotics/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Modules",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/physical-ai-humanoid-robotics/docs/introduction",
+            "docId": "introduction",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Foundations of Physical AI",
+            "href": "/physical-ai-humanoid-robotics/docs/foundations",
+            "docId": "foundations",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "ROS 2",
+            "href": "/physical-ai-humanoid-robotics/docs/ros2",
+            "docId": "ros2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Gazebo & Unity",
+            "href": "/physical-ai-humanoid-robotics/docs/gazebo-unity",
+            "docId": "gazebo-unity",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "NVIDIA Isaac",
+            "href": "/physical-ai-humanoid-robotics/docs/nvidia-isaac",
+            "docId": "nvidia-isaac",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Humanoid Robotics",
+            "href": "/physical-ai-humanoid-robotics/docs/humanoid-robotics",
+            "docId": "humanoid-robotics",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Conversational Robotics",
+            "href": "/physical-ai-humanoid-robotics/docs/conversational-robotics",
+            "docId": "conversational-robotics",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Assessments",
+        "items": [
+          {
+            "type": "link",
+            "label": "ROS 2 Project",
+            "href": "/physical-ai-humanoid-robotics/docs/assessments/ros-project",
+            "docId": "assessments/ros-project",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Gazebo Project",
+            "href": "/physical-ai-humanoid-robotics/docs/assessments/gazebo-project",
+            "docId": "assessments/gazebo-project",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Isaac Pipeline",
+            "href": "/physical-ai-humanoid-robotics/docs/assessments/isaac-pipeline",
+            "docId": "assessments/isaac-pipeline",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Capstone Humanoid Robot",
+            "href": "/physical-ai-humanoid-robotics/docs/assessments/capstone-humanoid",
+            "docId": "assessments/capstone-humanoid",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Hardware & Architecture",
+        "items": [
+          {
+            "type": "link",
+            "label": "Digital Twin Workstation",
+            "href": "/physical-ai-humanoid-robotics/docs/hardware/digital-twin-workstation",
+            "docId": "hardware/digital-twin-workstation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Jetson Edge Kit",
+            "href": "/physical-ai-humanoid-robotics/docs/hardware/jetson-edge-kit",
+            "docId": "hardware/jetson-edge-kit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Sim Rig Workflow",
+            "href": "/physical-ai-humanoid-robotics/docs/architecture/sim-rig-workflow",
+            "docId": "architecture/sim-rig-workflow",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Edge Backend",
+            "href": "/physical-ai-humanoid-robotics/docs/architecture/edge-backend",
+            "docId": "architecture/edge-backend",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "architecture/edge-backend": {
+      "id": "architecture/edge-backend",
+      "title": "Edge Backend",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "architecture/sim-rig-workflow": {
+      "id": "architecture/sim-rig-workflow",
+      "title": "Sim Rig Workflow",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "assessments/capstone-humanoid": {
+      "id": "assessments/capstone-humanoid",
+      "title": "Capstone Humanoid Robot",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "assessments/gazebo-project": {
+      "id": "assessments/gazebo-project",
+      "title": "Gazebo Project",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "assessments/isaac-pipeline": {
+      "id": "assessments/isaac-pipeline",
+      "title": "Isaac Pipeline",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "assessments/ros-project": {
+      "id": "assessments/ros-project",
+      "title": "ROS 2 Project",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "conversational-robotics": {
+      "id": "conversational-robotics",
+      "title": "Conversational Robotics",
+      "description": "GPT + Voice + Vision Integration",
+      "sidebar": "tutorialSidebar"
+    },
+    "foundations": {
+      "id": "foundations",
+      "title": "Foundations of Physical AI",
+      "description": "Core Concepts",
+      "sidebar": "tutorialSidebar"
+    },
+    "gazebo-unity": {
+      "id": "gazebo-unity",
+      "title": "Gazebo & Unity",
+      "description": "Gazebo Simulation",
+      "sidebar": "tutorialSidebar"
+    },
+    "hardware/digital-twin-workstation": {
+      "id": "hardware/digital-twin-workstation",
+      "title": "Digital Twin Workstation",
+      "description": "Specifications",
+      "sidebar": "tutorialSidebar"
+    },
+    "hardware/jetson-edge-kit": {
+      "id": "hardware/jetson-edge-kit",
+      "title": "Jetson Edge Kit",
+      "description": "Specifications",
+      "sidebar": "tutorialSidebar"
+    },
+    "humanoid-robotics": {
+      "id": "humanoid-robotics",
+      "title": "Humanoid Robotics",
+      "description": "Humanoid Kinematics",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introduction to Physical AI & Humanoid Robotics",
+      "description": "Welcome to the comprehensive textbook on Physical AI and Humanoid Robotics. This course covers the fundamental concepts, technologies, and practical applications of physical artificial intelligence and humanoid robotics.",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction": {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "What is Physical AI?",
+      "sidebar": "tutorialSidebar"
+    },
+    "nvidia-isaac": {
+      "id": "nvidia-isaac",
+      "title": "NVIDIA Isaac",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "ros2": {
+      "id": "ros2",
+      "title": "ROS 2",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

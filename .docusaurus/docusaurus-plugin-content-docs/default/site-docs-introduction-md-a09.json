@@ -1,0 +1,27 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "What is Physical AI?",
+  "source": "@site/docs/introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/physical-ai-humanoid-robotics/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI & Humanoid Robotics",
+    "permalink": "/physical-ai-humanoid-robotics/docs/intro"
+  },
+  "next": {
+    "title": "Foundations of Physical AI",
+    "permalink": "/physical-ai-humanoid-robotics/docs/foundations"
+  }
+}

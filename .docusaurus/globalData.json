@@ -1,0 +1,108 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/physical-ai-humanoid-robotics/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/physical-ai-humanoid-robotics/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "architecture/edge-backend",
+              "path": "/physical-ai-humanoid-robotics/docs/architecture/edge-backend",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "architecture/sim-rig-workflow",
+              "path": "/physical-ai-humanoid-robotics/docs/architecture/sim-rig-workflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "assessments/capstone-humanoid",
+              "path": "/physical-ai-humanoid-robotics/docs/assessments/capstone-humanoid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "assessments/gazebo-project",
+              "path": "/physical-ai-humanoid-robotics/docs/assessments/gazebo-project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "assessments/isaac-pipeline",
+              "path": "/physical-ai-humanoid-robotics/docs/assessments/isaac-pipeline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "assessments/ros-project",
+              "path": "/physical-ai-humanoid-robotics/docs/assessments/ros-project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conversational-robotics",
+              "path": "/physical-ai-humanoid-robotics/docs/conversational-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "foundations",
+              "path": "/physical-ai-humanoid-robotics/docs/foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gazebo-unity",
+              "path": "/physical-ai-humanoid-robotics/docs/gazebo-unity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/digital-twin-workstation",
+              "path": "/physical-ai-humanoid-robotics/docs/hardware/digital-twin-workstation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware/jetson-edge-kit",
+              "path": "/physical-ai-humanoid-robotics/docs/hardware/jetson-edge-kit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "humanoid-robotics",
+              "path": "/physical-ai-humanoid-robotics/docs/humanoid-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/physical-ai-humanoid-robotics/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/physical-ai-humanoid-robotics/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nvidia-isaac",
+              "path": "/physical-ai-humanoid-robotics/docs/nvidia-isaac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ros2",
+              "path": "/physical-ai-humanoid-robotics/docs/ros2",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/physical-ai-humanoid-robotics/docs/intro",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

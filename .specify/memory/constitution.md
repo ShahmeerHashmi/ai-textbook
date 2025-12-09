@@ -1,55 +1,48 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: N/A (initial version) → 1.0.0
+- List of modified principles: N/A (initial principles added)
+- Added sections: All sections from user input
+- Removed sections: None
+- Templates requiring updates: N/A
+- Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Course Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Rule 1: Command-Driven Workflow
+All changes, updates, and new additions must be created using SpecKitPlus commands. Manual editing should be avoided unless absolutely required.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Rule 2: Code & Technology Standards
+The textbook and its examples must use TypeScript as the primary coding language, with clean, typed, modern coding practices, and only approved tools necessary for the course.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Rule 3: Simplicity & Relevance
+No unnecessary sections, files, or content are allowed. Only include what contributes to Physical AI learning, Robotics understanding, and Software development clarity.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Rule 4: Premium Quality Control
+Every section must maintain Clarity, Accuracy, Professional structure, and Practical value.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Rule 5: Flexible Expansion
+Additional rules or sections may be added through `/sp.specify` folders or modules when required.
 
-### [PRINCIPLE_6_NAME]
+### Rule 6: Educational Focus
+All content must prioritize educational value and learning outcomes for students studying Physical AI and Humanoid Robotics.
 
+## Course Purpose
+This textbook serves as a premium, high-quality educational resource for teaching Physical AI, Humanoid Robotics, and their modern software foundations. It outlines what the book is about, what it aims to teach, and the technologies involved.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Course Goals
+The textbook aims to:
+- Provide a premium, well-structured learning path for Physical AI.
+- Introduce core concepts of humanoid robotics.
+- Teach modern development practices using TypeScript, Next.js, and related ecosystems.
+- Offer practical and conceptual knowledge without unnecessary complexity.
+- Stay fully compatible with SpecKitPlus command-driven workflows.
+- Serve as the official reference for the course's rules, workflow, and project expectations.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution ensures the project remains clean, premium, and aligned with both SpecKitPlus and modern TypeScript-based development workflows. All changes must follow the command-driven workflow and maintain premium quality standards.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-08 | **Last Amended**: 2025-12-08

@@ -1,0 +1,27 @@
+{
+  "id": "foundations",
+  "title": "Foundations of Physical AI",
+  "description": "Core Concepts",
+  "source": "@site/docs/foundations.md",
+  "sourceDirName": ".",
+  "slug": "/foundations",
+  "permalink": "/physical-ai-humanoid-robotics/docs/foundations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foundations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/physical-ai-humanoid-robotics/docs/introduction"
+  },
+  "next": {
+    "title": "ROS 2",
+    "permalink": "/physical-ai-humanoid-robotics/docs/ros2"
+  }
+}

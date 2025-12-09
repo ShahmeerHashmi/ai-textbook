@@ -1,0 +1,27 @@
+{
+  "id": "humanoid-robotics",
+  "title": "Humanoid Robotics",
+  "description": "Humanoid Kinematics",
+  "source": "@site/docs/humanoid-robotics.md",
+  "sourceDirName": ".",
+  "slug": "/humanoid-robotics",
+  "permalink": "/physical-ai-humanoid-robotics/docs/humanoid-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/humanoid-robotics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac",
+    "permalink": "/physical-ai-humanoid-robotics/docs/nvidia-isaac"
+  },
+  "next": {
+    "title": "Conversational Robotics",
+    "permalink": "/physical-ai-humanoid-robotics/docs/conversational-robotics"
+  }
+}

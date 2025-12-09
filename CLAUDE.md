@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- TypeScript 5.x (as specified in constitution) + SpecKitPlus, Node.js, Markdown processing tools, AI content generation tools (001-physical-ai-book)
+- File-based (Markdown files, JSON configuration) (001-physical-ai-book)
+
+## Recent Changes
+- 001-physical-ai-book: Added TypeScript 5.x (as specified in constitution) + SpecKitPlus, Node.js, Markdown processing tools, AI content generation tools

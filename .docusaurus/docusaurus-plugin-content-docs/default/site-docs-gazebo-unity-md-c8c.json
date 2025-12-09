@@ -1,0 +1,27 @@
+{
+  "id": "gazebo-unity",
+  "title": "Gazebo & Unity",
+  "description": "Gazebo Simulation",
+  "source": "@site/docs/gazebo-unity.md",
+  "sourceDirName": ".",
+  "slug": "/gazebo-unity",
+  "permalink": "/physical-ai-humanoid-robotics/docs/gazebo-unity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gazebo-unity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2",
+    "permalink": "/physical-ai-humanoid-robotics/docs/ros2"
+  },
+  "next": {
+    "title": "NVIDIA Isaac",
+    "permalink": "/physical-ai-humanoid-robotics/docs/nvidia-isaac"
+  }
+}

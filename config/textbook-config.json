@@ -1,0 +1,136 @@
+{
+  "title": "Physical AI & Humanoid Robotics",
+  "version": "1.0.0",
+  "outputPath": "./output/textbook",
+  "modules": [
+    {
+      "id": "introduction",
+      "name": "Introduction",
+      "weeks": [1],
+      "learningObjectives": [
+        "Understand what Physical AI is",
+        "Explore embodied intelligence concepts",
+        "Identify why Physical AI matters",
+        "Define learning outcomes for the course"
+      ]
+    },
+    {
+      "id": "foundations",
+      "name": "Foundations of Physical AI",
+      "weeks": [1, 2],
+      "learningObjectives": [
+        "Understand foundational concepts of Physical AI",
+        "Learn about sensors and perception",
+        "Explore basic robotics concepts"
+      ]
+    },
+    {
+      "id": "ros2",
+      "name": "ROS 2",
+      "weeks": [3, 4, 5],
+      "learningObjectives": [
+        "Learn ROS 2 basics",
+        "Understand nodes, topics, and services",
+        "Build ROS 2 packages"
+      ]
+    },
+    {
+      "id": "gazebo-unity",
+      "name": "Gazebo & Unity",
+      "weeks": [6, 7],
+      "learningObjectives": [
+        "Use Gazebo simulation environment",
+        "Work with URDF/SDF models",
+        "Visualize in Unity"
+      ]
+    },
+    {
+      "id": "nvidia-isaac",
+      "name": "NVIDIA Isaac",
+      "weeks": [8, 9, 10],
+      "learningObjectives": [
+        "Explore NVIDIA Isaac platform",
+        "Learn perception and manipulation",
+        "Understand RL and Sim-to-Real"
+      ]
+    },
+    {
+      "id": "humanoid-robotics",
+      "name": "Humanoid Robotics",
+      "weeks": [11, 12],
+      "learningObjectives": [
+        "Understand humanoid kinematics",
+        "Learn locomotion and balance",
+        "Explore manipulation techniques"
+      ]
+    },
+    {
+      "id": "conversational-robotics",
+      "name": "Conversational Robotics",
+      "weeks": [13],
+      "learningObjectives": [
+        "Implement GPT + Voice + Vision",
+        "Create conversational interfaces",
+        "Integrate multiple modalities"
+      ]
+    }
+  ],
+  "assessments": [
+    {
+      "id": "ros-project",
+      "name": "ROS 2 Project",
+      "type": "hands-on",
+      "requirements": ["ROS 2 knowledge", "Basic programming skills"],
+      "duration": "2-3 weeks"
+    },
+    {
+      "id": "gazebo-project",
+      "name": "Gazebo Project",
+      "type": "simulation",
+      "requirements": ["Gazebo experience", "URDF knowledge"],
+      "duration": "2-3 weeks"
+    },
+    {
+      "id": "isaac-pipeline",
+      "name": "Isaac Pipeline",
+      "type": "pipeline",
+      "requirements": ["NVIDIA Isaac knowledge", "Python skills"],
+      "duration": "3-4 weeks"
+    },
+    {
+      "id": "capstone-humanoid",
+      "name": "Capstone Humanoid Robot",
+      "type": "capstone",
+      "requirements": ["All previous knowledge", "Advanced robotics skills"],
+      "duration": "4-5 weeks"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "digital-twin-workstation",
+      "name": "Digital Twin Workstation",
+      "specifications": ["High-performance GPU", "Multi-core CPU", "16GB+ RAM"],
+      "purpose": "Simulation and development environment"
+    },
+    {
+      "id": "jetson-edge-kit",
+      "name": "Jetson Edge Kit",
+      "specifications": ["NVIDIA Jetson board", "Robotics sensors", "Connectivity"],
+      "purpose": "Edge computing for robotics"
+    }
+  ],
+  "architecture": [
+    {
+      "id": "sim-rig-workflow",
+      "name": "Sim Rig Workflow",
+      "description": "Simulation-based development and testing workflow"
+    },
+    {
+      "id": "edge-backend",
+      "name": "Edge Backend",
+      "description": "Edge computing backend for robotics applications"
+    }
+  ],
+  "weeks": 13,
+  "templatePath": "./templates"
+}
