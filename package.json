@@ -6,7 +6,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "node ./node_modules/@docusaurus/core/bin/docusaurus.js start",
-    "build": "node ./node_modules/@docusaurus/core/bin/docusaurus.js build",
+    "build": "node ./scripts/docusaurus-build.mjs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
