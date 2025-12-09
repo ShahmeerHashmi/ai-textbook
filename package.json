@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "npx docusaurus build",
+    "start": "node ./node_modules/@docusaurus/core/bin/docusaurus.js start",
+    "build": "node ./node_modules/@docusaurus/core/bin/docusaurus.js build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
